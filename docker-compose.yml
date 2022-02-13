@@ -1,0 +1,12 @@
+version: "3"
+services:
+  php:
+    build:
+      context: .
+      args:
+        user: kiko
+        uid: 1000
+    image: "php-exercises"
+    container_name: php-exercises-composer
+    volumes:
+      - .:/code
