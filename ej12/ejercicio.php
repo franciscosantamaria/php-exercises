@@ -1,19 +1,15 @@
 <?php
 
 /*
- * Un isograma es una palabra que no tiene letras repetidas (consecutivas o no).
- * Implement a function that determines whether a string that contains only letters
- * Si la cadena es vacía lo consideraremos un isograma an isogram
- * No tener en cuenta si las letras son mayúsculas y minisculas.
+ * Dadas 2 cadenas de texto solamente con letras de la 'a' a la 'z'
+ * Devolver una nueva cadena ordenada que contenga las letras que aparecen,
+ * eliminando las repetidas
  *
  * ej:
- * "Dermatoglyphics" --> true
- * "aba" --> false
- * "moOse" --> false (hay que ignorar mayus/minus)
- *
+ * longest('afb', 'ccgf') // debería devolver 'abcgf'
  */
 
 
-function isograma(string $cadena): bool {
-    return false;
+function longest(string $cadena1, string $cadena2): string {
+    return '';
 }

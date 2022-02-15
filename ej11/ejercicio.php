@@ -1,15 +1,16 @@
 <?php
 
 /*
- * Dadas 2 cadenas de texto solamente con letras de la 'a' a la 'z'
- * Devolver una nueva cadena ordenada que contenga las letras que aparecen,
- * eliminando las repetidas
+ * Dividir la cadena de texto pasada en bloques de 2 caracteres.
+ * Si el último bloque solamente tuviera 1 caracter, se le asignará
+ * el caracter '_'
  *
  * ej:
- * longest('afb', 'ccgf') // debería devolver 'abcgf'
+ * solution('abc') // debería devolver ['ab', 'c_']
+ * solution('abcdef') // debería devolver ['ab', 'cd', 'ef']
  */
 
 
-function longest(string $cadena1, string $cadena2): string {
-    return '';
+function solution(string $cadena): array {
+    return [];
 }

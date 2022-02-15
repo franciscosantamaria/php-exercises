@@ -1,16 +1,19 @@
 <?php
 
 /*
- * Dividir la cadena de texto pasada en bloques de 2 caracteres.
- * Si el último bloque solamente tuviera 1 caracter, se le asignará
- * el caracter '_'
+ * Crear una función que ‘milenialice’ un texto que se le pase, es decir:
+ * los ‘que’ los convierte el ‘k’
+ * porque => xq
+ * Pone todo en mayúsculas indistintamente
+ * Gu/Bu => w
+ * Igual => =
+ * Sin apertura de ¡ ni ¿, ni tíldes
  *
- * ej:
- * solution('abc') // debería devolver ['ab', 'c_']
- * solution('abcdef') // debería devolver ['ab', 'cd', 'ef']
+ * Mover esas funciones a un fichero llamado util.php y hacer llamadas a dichas funciones desde otro fichero diferente.
+
  */
 
 
-function solution(string $cadena): array {
-    return [];
+function milenializar(string $texto): string {
+    return '';
 }

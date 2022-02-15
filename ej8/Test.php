@@ -5,13 +5,14 @@ require 'ejercicio.php';
 class Test extends PHPUnit\Framework\TestCase
 {
     public function testPiramide() {
-        $piramide = <<<PIRAMIDE5
+        $piramide =
+      <<<PIRAMIDE5
           *
          * *
         * * *
        * * * *
       * * * * *
-PIRAMIDE5;
+      PIRAMIDE5;
 
         $this->assertEquals(
             $piramide,

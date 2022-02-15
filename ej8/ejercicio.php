@@ -16,9 +16,11 @@
 
 
 function generarPiramide(int $base): string {
-    return '*
-         * *
-        * * *
-       * * * *
-      * * * * *';
+    return <<<EXAMPLE
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+EXAMPLE;
 }
